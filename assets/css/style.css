@@ -4,6 +4,7 @@
     --drop-light:rgba(180, 208, 231, 1);
     --drop-logo:rgba(0, 97, 255, 1);
     --drop-dark:rgba(1, 1, 1, 1);
+    --drop-table-light:#ededef;
 }
 
 
@@ -62,6 +63,29 @@ ul{
 
 .radio_text{
     padding-right: 20px;
+}
+
+.options{
+    text-align: center;
+    border-bottom:3px solid var(--drop-table-light);
+}
+
+.bold{
+    font-weight: bold
+}
+
+.month{
+    font-style: oblique;
+    padding-bottom: 40px;
+}
+
+.fa-ul>*{
+    padding-bottom: 8px;
+    max-width: 100%;
+}
+
+.fa-check{
+    color: var(--drop-logo);
 }
 
 .col4{
@@ -207,13 +231,27 @@ body{
     padding-left: 0;
  }
 
- .business_card_containter{
-    gap:5px;
+ .card_title{
+    font-size: 18px;
+    font-weight:bold;
+ }
+ .business_card_container{
+    gap:10px
+ }
+ .business_card{
+    border:3px solid var(--drop-table-light);
+    margin-bottom: 30px;
+    gap: 10px;
  }
 
- .business_card{
-    background-color: blue;
-    margin: 5px;
+ .business_card>*{
+    padding: 5px;
+ }
+
+ .btn_card{
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px ;
  }
 
 

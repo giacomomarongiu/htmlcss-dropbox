@@ -16,8 +16,8 @@
 
 
 /*Utilities*/
-.container_75{
-    max-width: 75%;
+.container_65{
+    max-width: 65%;
     margin:auto;
 }
 
@@ -38,6 +38,13 @@ ul{
     max-width: 67%;
 }
 
+.img60{
+    max-width: 60%;
+}
+
+.text40{
+    max-width: 40%;
+}
 
 /*Debug*/
 .debug header{
@@ -46,8 +53,27 @@ ul{
 }
 
 .debug main{
-    background-color: blueviolet;
-    height: 2000px;
+    background-color: ;
+    height: 4000px;
+}
+
+.debug #jumbotron{
+    height: 550px;
+}
+
+.debug #business_choice{
+    height: 1250px;
+    background-color: chocolate;
+}
+
+.debug #operation{
+    height: 750px;
+    background-color: rgb(24, 211, 33);
+}
+
+.debug #designit{
+    height: 1250px;
+    background-color: rgb(226, 38, 164);
 }
 
 .debug footer{
@@ -55,13 +81,26 @@ ul{
     height: 100px;
 }
 
+.debug .img60{
+    background-color: coral;
+}
+
+.debug .text40{
+    background-color: rgb(8, 109, 4);
+}
+
+
+
+
 
 /*Others*/
-
 body{
     max-width: 1920px;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+
 
 /*Header*/
 #site_nav{
@@ -72,9 +111,10 @@ body{
     gap: 2rem;
 }
 
+
+
 /*Main*/
 #jumbotron{
-    height: 450px;
     background-color: var(--drop-light);
 }
 
@@ -86,6 +126,11 @@ body{
     padding: 20px;
  }
 
- .card{
-    border: 2px, black;
+ .business_card_containter{
+    gap:5px;
+ }
+
+ .business_card{
+    background-color: blue;
+    margin: 5px;
  }

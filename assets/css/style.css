@@ -53,6 +53,7 @@ ul{
 /*Others*/
 body{
     max-width: 1920px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #site_nav{

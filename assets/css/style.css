@@ -31,11 +31,11 @@ ul{
 }
 
 .col4{
-    max-width: 33%;
+    max-width: calc((100%/12)*4);
 }
 
 .col8{
-    max-width: 67%;
+    max-width: 66%
 }
 
 .img60{
@@ -67,12 +67,11 @@ ul{
 }
 
 .debug #operation{
-    height: 750px;
+    height: 1200px;
     background-color: rgb(24, 211, 33);
 }
 
 .debug #designit{
-    height: 1250px;
     background-color: rgb(226, 38, 164);
 }
 
@@ -89,7 +88,20 @@ ul{
     background-color: rgb(8, 109, 4);
 }
 
+.debug .designit_left{
+    background-color: black;
+    height: 500px;
+}
 
+.debug .designit_right{
+    background-color: black;
+    height: 500px;
+}
+
+.debug .light_adv{
+    height: 150px;
+    background-color: var(--drop-light);
+}
 
 
 
@@ -135,9 +147,9 @@ body{
     margin: 5px;
  }
 
+
  .operation_card_container{
     flex-wrap: wrap;
-    max-width: 100%;
  }
 
  .operation_card{

@@ -42,6 +42,14 @@ ul{
     font-size: 10px;
 }
 
+.small_text{
+    font-size: 10px;
+}
+
+.big_text{
+    font-size: 30px;
+    font-weight: 900;
+}
 
 .col4{
     max-width: calc((100%/12)*4);
@@ -69,16 +77,15 @@ ul{
 }
 
 .debug main{
-    background-color: ;
     height: 4000px;
 }
 
 .debug #jumbotron{
-    height: 550px;
-    background-color: var(--drop-light);
+    height: 380px;
 }
 
 .debug #business_choice{
+    padding-top: 100px;
     height: 1250px;
     background-color: chocolate;
 }
@@ -156,9 +163,26 @@ body{
     background-color: var(--drop-light);
 }
 
+.jumbo_title{
+    font-weight: 800;
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
 #jumbo_pic{
     max-width: 100%;
 }
+
+.jumbo_left * {
+    padding-bottom: 20px;
+}
+
+.start_free{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 
  #fatturazione{
     padding: 20px;

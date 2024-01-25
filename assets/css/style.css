@@ -38,6 +38,10 @@ ul{
     max-width: 66%
 }
 
+.col-20{
+    max-width: 20%;
+}
+
 .img60{
     max-width: 60%;
 }
@@ -77,7 +81,7 @@ ul{
 
 .debug footer{
     background-color: brown;
-    height: 100px;
+    height: 180px;
 }
 
 .debug .img60{
@@ -157,3 +161,6 @@ body{
     margin: 3px;
  }
 
+.foot_spread{
+    justify-content: space-between;
+}

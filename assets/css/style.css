@@ -134,3 +134,14 @@ body{
     background-color: blue;
     margin: 5px;
  }
+
+ .operation_card_container{
+    flex-wrap: wrap;
+    max-width: 100%;
+ }
+
+ .operation_card{
+    background-color: bisque;
+    margin: 3px;
+ }
+

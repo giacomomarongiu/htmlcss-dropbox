@@ -26,7 +26,7 @@
 }
 
 ul{
-    list-style: none;
+   /* list-style: none;*/
     padding: 3px;
 }
 
@@ -68,6 +68,10 @@ body{
     justify-content: space-between;
 }
 
+.nav_list{
+    gap: 2rem;
+}
+
 /*Main*/
 #jumbotron{
     height: 450px;
@@ -77,3 +81,11 @@ body{
 #jumbo_pic{
     max-width: 100%;
 }
+
+ #fatturazione{
+    padding: 20px;
+ }
+
+ .card{
+    border: 2px, black;
+ }

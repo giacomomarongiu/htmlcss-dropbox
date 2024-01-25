@@ -21,6 +21,11 @@
     margin:auto;
 }
 
+.container_75{
+    max-width: 75%;
+    margin:auto;
+}
+
 .d-flex{
     display: flex;
 }
@@ -51,6 +56,14 @@ ul{
     font-weight: 900;
 }
 
+.titles{
+    padding-bottom:20px;
+}
+
+.radio_text{
+    padding-right: 20px;
+}
+
 .col4{
     max-width: calc((100%/12)*4);
 }
@@ -59,8 +72,8 @@ ul{
     max-width: 66%
 }
 
-.col-20{
-    max-width: 20%;
+.col_20{
+    max-width: calc((100%/12)*(12/5));
 }
 
 .img60{
@@ -81,7 +94,7 @@ ul{
 }
 
 .debug #jumbotron{
-    height: 380px;
+    height: 420px;
 }
 
 .debug #business_choice{
@@ -183,9 +196,15 @@ body{
     padding-bottom: 8px;
 }
 
+.radio_check_box{
+    align-items: center;
+    gap: 20p;
+}
+
 
  #fatturazione{
-    padding: 20px;
+    padding: 25px;
+    padding-left: 0;
  }
 
  .business_card_containter{

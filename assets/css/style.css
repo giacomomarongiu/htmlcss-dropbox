@@ -1,0 +1,45 @@
+/*Colours*/
+:root{
+
+}
+
+
+/*Reset CSS*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/*Utilities*/
+.container_80{
+
+}
+
+
+
+
+/*Debug*/
+.debug header{
+    background-color: aqua;
+    height: 40px;
+}
+
+.debug main{
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.debug footer{
+    background-color: brown;
+    height: 100px;
+}
+
+
+
+body{
+
+}
+
+

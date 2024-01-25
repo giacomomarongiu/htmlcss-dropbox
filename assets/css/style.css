@@ -18,7 +18,7 @@
 /*Utilities*/
 .container_80{
     max-width: 80%;
-    margin:0;
+    margin:auto;
 }
 
 .d-flex{
@@ -30,7 +30,13 @@ ul{
     padding: 3px;
 }
 
+.col4{
+    max-width: 33%;
+}
 
+.col8{
+    max-width: 67%;
+}
 
 
 /*Debug*/
@@ -41,7 +47,7 @@ ul{
 
 .debug main{
     background-color: blueviolet;
-    height: 500px;
+    height: 2000px;
 }
 
 .debug footer{
@@ -51,11 +57,23 @@ ul{
 
 
 /*Others*/
+
 body{
     max-width: 1920px;
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Header*/
 #site_nav{
     justify-content: space-between;
+}
+
+/*Main*/
+#jumbotron{
+    height: 450px;
+    background-color: var(--drop-light);
+}
+
+#jumbo_pic{
+    max-width: 100%;
 }

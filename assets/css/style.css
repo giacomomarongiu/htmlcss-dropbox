@@ -31,6 +31,18 @@ ul{
     list-style: none;
 }
 
+
+.blue_btn{
+    color: var(--drop-lighter);
+    border:0;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--drop-logo);
+    font-size: 10px;
+}
+
+
 .col4{
     max-width: calc((100%/12)*4);
 }
@@ -63,6 +75,7 @@ ul{
 
 .debug #jumbotron{
     height: 550px;
+    background-color: var(--drop-light);
 }
 
 .debug #business_choice{
@@ -116,28 +129,26 @@ body{
 }
 
 
-
-
 /*Header*/
 #site_nav{
     height: 40px;
     justify-content: space-between;
     align-items: center;
+    padding-left:10px;
+    padding-right: 10px;
 }
 
-
 #logo_nav{
-    padding-top: 5px;
+    padding-top: 3px;
     height: 18px;
-    padding-left: 10px;
     padding-right: 15px;
 }
 
 .nav_list{
     font-size: 10px;
-    gap: 8px;
+    padding-right: 10px;
+    gap:20px
 }
-
 
 
 /*Main*/

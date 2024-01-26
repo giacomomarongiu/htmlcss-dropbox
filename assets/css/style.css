@@ -5,6 +5,15 @@
     --drop-logo: rgba(0, 97, 255, 1);
     --drop-dark: rgba(1, 1, 1, 1);
     --drop-table-light: #ededef;
+    --drop-bg-square1a: #A2D39B;
+    --drop-bg-square1b:#FF1C1C;
+    --drop-bg-square1c:#61082B;
+    --drop-bg-square1d:#0093CE;
+    --drop-bg-square2a:#D5001F;
+    --drop-bg-square2b:#B4D0E7;
+    --drop-bg-square2c:#0D2481;
+    --drop-bg-square2d:#FFD830;
+    --drop-bg-square_big:#F5F5F5;
 }
 
 
@@ -124,22 +133,23 @@ ul {
 }
 
 .designit_center> *{
-    margin: 20px;
+    margin: 10px;
 }
 
 .designit_img_grill {
     width: 100%;
-    padding: 12%;
+    padding: 25%;
 }
 
 .designit_img_grill_bg{
     width: 50%;
-    padding-top: 12%;
-    padding-bottom: 12%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .designit_center_img {
     width: 50%;
+    padding: 20px;
 }
 
 
@@ -352,6 +362,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
 }
+
+
 
 .foot_spread {
     justify-content: space-between;

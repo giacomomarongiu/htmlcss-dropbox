@@ -128,18 +128,18 @@ ul {
 }
 
 .designit_img_grill {
-    width: 50%;
+    width: 100%;
     padding: 12%;
-    padding-top: 21%;
-    padding-bottom: 21%;
+}
+
+.designit_img_grill_bg{
+    width: 50%;
+    padding-top: 12%;
+    padding-bottom: 12%;
 }
 
 .designit_center_img {
     width: 50%;
-}
-
-.designit_left: first-child{
-    back
 }
 
 
@@ -350,6 +350,7 @@ body {
 .designit_left,
 .designit_right {
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .foot_spread {

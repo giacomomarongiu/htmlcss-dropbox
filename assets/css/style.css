@@ -128,11 +128,11 @@ ul {
     height: 5000px;
 }
 
-.debug #business_choice {
+    /*.debug #business_choice {
     padding-top: 100px;
     height: 1850px;
-    /*    background-color: chocolate;*/
-}
+    background-color: chocolate;
+}*/
 
 /*.debug #operation {
     height: 1900px;
@@ -233,6 +233,8 @@ body {
     gap: 20p;
 }
 
+#business_choice {
+    padding-top: 100px;}
 
 #fatturazione {
     padding: 25px;
@@ -301,10 +303,13 @@ gap: 32px;
     padding-bottom: 10px;
 }
 
+#operation {
+    padding-bottom: 100px;
+}
 
 .operation_card_container {
     flex-wrap: wrap;
-    padding-bottom: 10px;
+    padding-bottom: 100px;
 }
 
 .operation_card {

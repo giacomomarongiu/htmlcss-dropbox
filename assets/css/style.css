@@ -113,6 +113,12 @@ ul {
     padding: 30px;
 }
 
+.operation_img{
+    width: 100%;
+}
+
+.operation_card
+
 /*Debug*/
 .debug header {
     /*    background-color: aqua;*/
@@ -298,10 +304,10 @@ gap: 32px;
 
 .operation_card_container {
     flex-wrap: wrap;
+    padding-bottom: 10px;
 }
 
 .operation_card {
-    background-color: bisque;
     margin: 3px;
 }
 

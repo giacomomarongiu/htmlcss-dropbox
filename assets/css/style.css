@@ -93,7 +93,7 @@ ul {
 }
 
 .col4 {
-    min-width: calc((100%/12)*4);
+    max-width: calc((100%/12)*4);
 }
 
 .col8 {
@@ -250,8 +250,30 @@ gap: 32px;
     padding: 10px;
 }
 
-.business_card_orizzontale>*{
-    padding: 10px;
+.container_oriz{
+    justify-content: space-between;
+
+}
+
+.oriz_left{
+    width: 70%;
+}
+
+.oriz_left>*{
+    padding-bottom: 12px;
+}
+
+.oriz_left>.bold{
+    padding-bottom:  25px;
+}
+
+.oriz_right{
+    width: 30%;
+    padding-left:20px ;
+}
+
+.partner_container{
+    padding-top: 40px;
 }
 
 .btn_card {

@@ -113,22 +113,54 @@ ul {
     padding: 30px;
 }
 
-.operation_img{
+.operation_img {
     width: 100%;
 }
 
-.operation_card
+
+
+.banners {
+    background-color: blueviolet;
+}
+
+.designit_center> *{
+    margin: 20px;
+}
+
+.designit_img_grill {
+    width: 50%;
+    padding: 12%;
+    padding-top: 21%;
+    padding-bottom: 21%;
+}
+
+.designit_center_img {
+    width: 50%;
+}
+
+.designit_left: first-child{
+    back
+}
+
+
+
+
+
+
+
+
+
 
 /*Debug*/
-.debug header {
-    /*    background-color: aqua;*/
+/*.debug header {
+       background-color: aqua;
+}*/
+
+/*.debug main {
+    height: 6000px ;
 }
 
-.debug main {
-    height: 5000px;
-}
-
-    /*.debug #business_choice {
+.debug #business_choice {
     padding-top: 100px;
     height: 1850px;
     background-color: chocolate;
@@ -139,13 +171,12 @@ ul {
     background-color: rgb(24, 211, 33);
 }*/
 
-.debug #designit {
+/*.debug #designit {
     background-color: rgb(226, 38, 164);
-}
+}*/
 
 .debug footer {
     background-color: brown;
-    height: 180px;
 }
 
 /*.debug .img60 {
@@ -156,7 +187,7 @@ ul {
     background-color: rgb(8, 109, 4);
 }*/
 
-.debug .designit_left {
+/*.debug .designit_left {
     background-color: black;
     height: 500px;
 }
@@ -164,10 +195,9 @@ ul {
 .debug .designit_right {
     background-color: black;
     height: 500px;
-}
+}*/
 
 .debug .light_adv {
-    height: 150px;
     background-color: var(--drop-light);
 }
 
@@ -234,7 +264,8 @@ body {
 }
 
 #business_choice {
-    padding-top: 100px;}
+    padding-top: 100px;
+}
 
 #fatturazione {
     padding: 25px;
@@ -247,7 +278,7 @@ body {
 }
 
 .business_card_container {
-gap: 32px;
+    gap: 32px;
 }
 
 .business_card {
@@ -259,38 +290,38 @@ gap: 32px;
     padding: 10px;
 }
 
-.container_oriz{
+.container_oriz {
     justify-content: space-between;
 
 }
 
-.oriz_left{
+.oriz_left {
     width: 70%;
 }
 
-.oriz_left>*{
+.oriz_left>* {
     padding-bottom: 12px;
 }
 
-.oriz_left>.bold{
-    padding-bottom:  25px;
+.oriz_left>.bold {
+    padding-bottom: 25px;
 }
 
-.oriz_right{
+.oriz_right {
     width: 30%;
-    padding-left:20px ;
+    padding-left: 20px;
 }
 
-.partner_container{
+.partner_container {
     padding-top: 40px;
     padding-bottom: 80px;
 }
 
-.text40>*{
+.text40>* {
     padding-bottom: 10px;
 }
 
-.btn_partner{
+.btn_partner {
     border-radius: 0;
     padding: 3%;
     border: 1px solid black;
@@ -314,6 +345,11 @@ gap: 32px;
 
 .operation_card {
     margin: 3px;
+}
+
+.designit_left,
+.designit_right {
+    flex-wrap: wrap;
 }
 
 .foot_spread {

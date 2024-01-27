@@ -340,15 +340,13 @@ body {
 
 /*Operation-end*/
 
+
+/*Designit L/C/R*/
+/*L/R*/
 .designit_left,
 .designit_right {
     flex-wrap: wrap;
     align-items: center;
-}
-
-
-.designit_center> *{
-    margin: 10px;
 }
 
 .designit_img_grill {
@@ -361,11 +359,8 @@ body {
     height: 50%;
 }
 
-.designit_center_img {
-    width: 50%;
-}
 
-
+/*Colours*/
 .designit_left>div:first-child{
     background-color: var(--drop-bg-square1a);
 }
@@ -392,6 +387,16 @@ body {
 .designit_right>div:nth-child(4){
     background-color: var(--drop-bg-square2d);
 }
+
+/*Center*/
+.designit_center> *{
+    margin: 10px;
+}
+
+.designit_center_img {
+    width: 50%;
+}
+
 
 
 

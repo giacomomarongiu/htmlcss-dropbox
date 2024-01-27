@@ -1,3 +1,56 @@
+
+/*Debug*/
+/*.debug header {
+       background-color: aqua;
+}*/
+
+/*.debug main {
+    height: 6000px ;
+}
+
+.debug #business_choice {
+    padding-top: 100px;
+    height: 1850px;
+    background-color: chocolate;
+}*/
+
+/*.debug #operation {
+    height: 1900px;
+    background-color: rgb(24, 211, 33);
+}*/
+
+/*.debug #designit {
+    background-color: rgb(226, 38, 164);
+}*/
+
+/*.debug footer {
+    background-color: brown;
+}
+
+.debug .img60 {
+    background-color: coral;
+}
+
+.debug .text40 {
+    background-color: rgb(8, 109, 4);
+}*/
+
+/*.debug .designit_left {
+    background-color: black;
+    height: 500px;
+}
+
+.debug .designit_right {
+    background-color: black;
+    height: 500px;
+}
+
+.debug .light_adv {
+    background-color: var(--drop-light);
+}*/
+
+
+
 /*Colours*/
 :root {
     --drop-lighter: rgba(255, 255, 255, 1);
@@ -6,9 +59,10 @@
     --drop-dark: rgba(1, 1, 1, 1);
     --drop-table-light: #ededef;
     --drop-bg-square1a: #A2D39B;
-    --drop-bg-square1b:#FF1C1C;
-    --drop-bg-square1c:#61082B;
-    --drop-bg-square1d:#0093CE;
+    --drop-bg-square1d:#FF1C1C;
+    --drop-bg-square1b:#61082B;
+    --drop-bg-square1c:#0093CE;
+
     --drop-bg-square2a:#D5001F;
     --drop-bg-square2b:#B4D0E7;
     --drop-bg-square2c:#0D2481;
@@ -120,60 +174,6 @@ ul {
     max-width: 40%;
     padding: 30px;
 }
-
-
-
-
-
-/*Debug*/
-/*.debug header {
-       background-color: aqua;
-}*/
-
-/*.debug main {
-    height: 6000px ;
-}
-
-.debug #business_choice {
-    padding-top: 100px;
-    height: 1850px;
-    background-color: chocolate;
-}*/
-
-/*.debug #operation {
-    height: 1900px;
-    background-color: rgb(24, 211, 33);
-}*/
-
-/*.debug #designit {
-    background-color: rgb(226, 38, 164);
-}*/
-
-/*.debug footer {
-    background-color: brown;
-}
-
-.debug .img60 {
-    background-color: coral;
-}
-
-.debug .text40 {
-    background-color: rgb(8, 109, 4);
-}*/
-
-/*.debug .designit_left {
-    background-color: black;
-    height: 500px;
-}
-
-.debug .designit_right {
-    background-color: black;
-    height: 500px;
-}
-
-.debug .light_adv {
-    background-color: var(--drop-light);
-}*/
 
 
 
@@ -299,8 +299,6 @@ body {
     padding-bottom: 80px;
 }
 
-
-
 .text40>* {
     padding-bottom: 10px;
 }
@@ -350,51 +348,56 @@ body {
 }
 
 .designit_img_grill {
-    width: 100%;
-    padding: 25%;
-}
-
-.designit_img_grill_bg{
     width: 50%;
-    height: 50%;
+    padding: 12%;
+    object-fit:contain;
 }
 
 
+.designit_left> img,
+.designit_right> img{
+    height: 62%;
+}
 /*Colours*/
-.designit_left>div:first-child{
+.designit_left>img:first-child{
     background-color: var(--drop-bg-square1a);
+
 }
-.designit_left>div:nth-child(2){
+.designit_left>img:nth-child(2){
     background-color: var(--drop-bg-square1b);
 }
-.designit_left>div:nth-child(3){
+.designit_left>img:nth-child(3){
     background-color: var(--drop-bg-square1c);
 }
-.designit_left>div:nth-child(4){
+.designit_left>img:nth-child(4){
     background-color: var(--drop-bg-square1d);
 }
 
 
-.designit_right>div:first-child{
+.designit_right>img:first-child{
     background-color: var(--drop-bg-square2a);
 }
-.designit_right>div:nth-child(2){
+.designit_right>img:nth-child(2){
     background-color: var(--drop-bg-square2b);
 }
-.designit_right>div:nth-child(3){
+.designit_right>img:nth-child(3){
     background-color: var(--drop-bg-square2c);
 }
-.designit_right>div:nth-child(4){
+.designit_right>img:nth-child(4){
     background-color: var(--drop-bg-square2d);
 }
 
 /*Center*/
+.designit_center{
+    background-color: var(--drop-bg-square_big);
+    padding: 1%;
+}
 .designit_center> *{
     margin: 10px;
 }
-
 .designit_center_img {
     width: 50%;
+    
 }
 
 

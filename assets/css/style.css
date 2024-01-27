@@ -164,7 +164,7 @@ ul {
     max-width: calc(100%/12*6);
 }
 
-.col_20 {
+.col20 {
     max-width: calc((100%/12)*(12/5));
 }
 
@@ -430,8 +430,8 @@ body {
 }
 
 .call_to_action {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
     justify-content: space-between;
 }
 
@@ -444,10 +444,37 @@ body {
     padding-right: 20px;
 }
 
-#FAQ {}
+.faq {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 
 
+.faq_li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#footer_container{
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+}
 
 .foot_spread {
     justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.card_footer h4{
+    padding-bottom: 15%;
+}
+
+.card_footer li{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.best_nation{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }

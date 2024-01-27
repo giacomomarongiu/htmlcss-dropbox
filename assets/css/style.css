@@ -61,7 +61,6 @@
     --drop-bg-square1d: #FF1C1C;
     --drop-bg-square1b: #61082B;
     --drop-bg-square1c: #0093CE;
-
     --drop-bg-square2a: #D5001F;
     --drop-bg-square2b: #B4D0E7;
     --drop-bg-square2c: #0D2481;
@@ -124,23 +123,8 @@ ul {
     padding-bottom: 20px;
 }
 
-.radio_text {
-    padding-right: 20px;
-}
-
-.options {
-    text-align: center;
-    border-bottom: 1px solid var(--drop-table-light);
-    padding-bottom: 5px;
-}
-
 .bold {
     font-weight: bold
-}
-
-.month {
-    font-style: oblique;
-    padding-bottom: 40px;
 }
 
 .fa-ul>* {
@@ -152,12 +136,14 @@ ul {
     color: var(--drop-logo);
 }
 
+
+/*Widht measures*/
 .col4 {
-    max-width: calc((100%/12)*4);
+    width: calc((100%/12)*4);
 }
 
 .col8 {
-    max-width: 66%
+    width: calc((100%/12)*8);
 }
 
 .col6 {
@@ -179,7 +165,8 @@ ul {
 
 
 
-/*Others*/
+
+/*big things*/
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -216,7 +203,8 @@ body {
 }
 
 .jumbo_title {
-    font-weight: 800;
+    font-weight: bolder;
+    font-size: 279%;
     padding-top: 40px;
     padding-right: 100px;
     padding-bottom: 30px;
@@ -224,11 +212,14 @@ body {
 
 #jumbo_pic {
     max-width: 100%;
-    margin-bottom: -4em;
+    margin-bottom: -4rem;
 }
 
 .jumbo_left * {
     padding-bottom: 20px;
+}
+.jumbo_left>p:last-child{
+    padding-bottom: 0;
 }
 
 .start_free {
@@ -241,13 +232,23 @@ body {
 
 
 /*Business-choice*/
+.options {
+    text-align: center;
+    border-bottom: 1px solid var(--drop-table-light);
+    padding-bottom: 5px;
+}
+
 .radio_check_box {
     align-items: center;
     gap: 20p;
 }
 
+.radio_text {
+    padding-right: 20px;
+}
+
 #business_choice {
-    padding-top: 100px;
+    padding-top: 6%;
 }
 
 #fatturazione {
@@ -270,7 +271,17 @@ body {
 }
 
 .business_card>* {
-    padding: 10px;
+    padding: 15px;
+}
+.month {
+    font-weight: bold;
+    padding-top: 1px;
+    font-weight: lighter;
+
+}
+.euro {
+    padding-bottom: 1px;
+    font-weight: bold;
 }
 
 .container_oriz {
@@ -293,6 +304,8 @@ body {
     width: 30%;
     padding-left: 20px;
 }
+
+
 
 
 .partner_container {
@@ -332,6 +345,7 @@ body {
 
 .operation_card {
     margin: 3px;
+    padding-bottom: 15%;
 }
 
 .operation_img {

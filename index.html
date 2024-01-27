@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="IT">
 
 <head>
     <meta charset="UTF-8">
@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3a46370e2f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body class="">
-    <!--two parts of nav-bar left/right-->
+
     <header>
         <div id="site_header">
             <nav id="site_nav" class="d-flex">
-                <div id="nav_left " class="d-flex">
+                <!--two parts of nav-bar left/right work with Flex-->
+                <div class="nav_left d-flex">
                     <img id="logo_nav" class="d-flex" src="./assets/img/logo-small.png" alt="">
                     <ul class="nav_list d-flex">
                         <li>Perché Dropbox</li>
@@ -26,7 +30,7 @@
                         <li>Piani e Prezzi</li>
                     </ul>
                 </div>
-                <div id="nav_right" class="d-flex">
+                <div class="nav_right d-flex">
                     <ul class="nav_list d-flex">
                         <li>Supporto</li>
                         <li>Contatta l'ufficio vendite</li>
@@ -40,7 +44,7 @@
     <!--/header-->
 
     <main>
-        <di id="site_main">
+        <div id="site_main">
 
             <!--Jumbotron things-->
             <div id="jumbotron">
@@ -63,6 +67,7 @@
                     </div>
                 </div>
             </div>
+            <!--/Jumbotron things-->
 
             <!--Business choice things-->
             <div id="business_choice">
@@ -80,11 +85,11 @@
                     </div>
                     <div class="business_card_container d-flex">
                         <div class="business_card col4  small_text">
-                            <span>
-                                <p class="options"><i class="fa-solid fa-user"></i> Singolo</p>
-                            </span>
+
+                            <p class="options"><i class="fa-solid fa-user"></i> Singolo</p>
+
                             <p class="card_title">Professional</p>
-                            <p class="bold">&euro;12.00</p>
+                            <p class="bold euro euro">&euro;12.00</p>
                             <p class="month">/mese</p>
                             <ul class="fa-ul">
                                 <li><span class="fa-li"><i class="fa-solid fa-user"></i></span>1 utente</li>
@@ -105,75 +110,79 @@
                             </ul>
                         </div>
                         <div class="business_card col4  small_text">
-                            <span>
-                                <p class="options"><i class="fa-solid fa-user"></i> Singolo</p>
-                            </span>
-                            <p class="card_title">Professional</p>
-                            <p class="bold">&euro;12.00</p>
-                            <p class="month">/mese</p>
+
+                            <p class="options"><i class="fa-solid fa-users"></i> Team</p>
+
+                            <p class="card_title">Advanced</p>
+                            <p class="bold euro">&euro;18.00</p>
+                            <p class="month">/utente/mese</p>
                             <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fa-solid fa-user"></i></span>1 utente</li>
-                                <li><span class="fa-li"><i class="fa-solid fa-folder"></i></span>5 TB di spazio di
-                                    archiviazione sicuro</li>
-                                <li><span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>Funzioni di
-                                    produttività premium e condivisione file semplice e sicura</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-users"></i></span>1 utente</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-folder"></i></span>Tutto lo spazio di cui
+                                    ha bisogno il tuo team</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>Sofisticate
+                                    funzioni di controllo per tenere sempre al sicuro tutti i file del tuo team</li>
                             </ul>
                             <div><button class="blue_btn btn_card">Prova Gratis per 30 giorni</button></div>
                             <p>oppure <a href="">acquista ora</a></p>
                             <p>_____</p>
                             <p class="bold">Punti salienti del piano</p>
                             <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Invia file fino a 100 GB
-                                    con Dropbox Transfert</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Nessun limite di spazio
+                                    per i file</li>
                                 <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Cartelle offline su
                                     dispositivi mobili</li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Invia file fino a 100 GB
-                                    con Dropbox Transfert</li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Cartelle offline su
-                                    dispositivi mobili</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Risparmio del 50%
+                                    rispetto alle iscrizioni singole</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Possibilità di inserire
+                                    nuovi membri nel team</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Gestione dei permessi in
+                                    base ai ruoli</li>
                             </ul>
                         </div>
                         <div class="business_card col4  small_text">
-                            <span>
-                                <p class="options"><i class="fa-solid fa-user"></i> Singolo</p>
-                            </span>
-                            <p class="card_title">Professional</p>
-                            <p class="bold">&euro;12.00</p>
-                            <p class="month">/mese</p>
+
+                            <p class="options"><i class="fa-solid fa-building"></i> Azienda</p>
+
+                            <p class="card_title">Enterprise</p>
+                            <p class="bold euro">Contattaci</p>
+                            <p class="month">-</p>
                             <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fa-solid fa-user"></i></span>1 utente</li>
-                                <li><span class="fa-li"><i class="fa-solid fa-folder"></i></span>5 TB di spazio di
-                                    archiviazione sicuro</li>
-                                <li><span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>Funzioni di
-                                    produttività premium e condivisione file semplice e sicura</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-user"></i></span>10 o più utenti</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-folder"></i></span>Soluzioi
+                                    personalizzabili per la tua azienda</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>Assistenza
+                                    personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
                             </ul>
-                            <div><button class="blue_btn btn_card">Prova Gratis per 30 giorni</button></div>
+                            <div><button class="blue_btn btn_card">Contattaci</button></div>
                             <p>oppure <a href="">acquista ora</a></p>
                             <p>_____</p>
                             <p class="bold">Punti salienti del piano</p>
                             <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Invia file fino a 100 GB
-                                    con Dropbox Transfert</li>
                                 <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Cartelle offline su
                                     dispositivi mobili</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Servizio assistenza 24h
+                                </li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Possibilità di
+                                    personalizzazione totale</li>
                             </ul>
                         </div>
                     </div>
 
                     <!--business_card without d-flex-->
                     <div class="business_card small_text">
-                        <span>
-                            <p class="options"><i class="fa-solid fa-user"></i> Singolo</p>
-                        </span>
+
+                        <p class="options"><i class="fa-solid fa-building"></i> Team</p>
+
                         <div class="container_oriz d-flex">
                             <div class="oriz_left">
-                                <p class="card_title">Professional</p>
+                                <p class="card_title">Enterprise</p>
                                 <p class="bold">Contatta l'ufficio vendite per i Prezzi</p>
                                 <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
                                     gestione su qualsiasi scala</p>
                             </div>
                             <div class="oriz_right">
-                                <button class="blue_btn btn_card">Prova Gratis per 30 giorni</button>
+                                <button class="blue_btn btn_card">Contatta l'ufficio vendite</button>
                             </div>
                         </div>
                     </div>
@@ -195,15 +204,17 @@
                     </div>
                 </div>
             </div>
+            <!--/Business choice things-->
 
             <!--Operation things-->
             <div id="operation">
                 <div class="container_55">
-                    <h2>Esegui più operazioni con Dropbox Business</h2>
+                    <h2 class="titles">Esegui più operazioni con Dropbox Business</h2>
                     <div class="operation_card_container d-flex">
                         <div class="col4">
                             <div class="operation_card">
-                                <img class="operation_img" src="./assets/img/business-feature-security.png" alt="">
+                                <img class="operation_img" src="./assets/img/business-feature-switching-tools.png"
+                                    alt="">
                                 <h4 class="titles">Passa di meno da uno strumento all'altro</h4>
                                 <p class="small_text">Porta a termine le attività quotidiane
                                     con un solo strumento. Crea, modifica e condividi contenuti
@@ -213,7 +224,7 @@
                         </div>
                         <div class="col4">
                             <div class="operation_card">
-                                <img class="operation_img" src="./assets/img/business-feature-security.png" alt="">
+                                <img class="operation_img" src="./assets/img/business-feature-send-files-it.png" alt="">
                                 <h4 class="titles">Passa di meno da uno strumento all'altro</h4>
                                 <p class="small_text">Porta a termine le attività quotidiane
                                     con un solo strumento. Crea, modifica e condividi contenuti
@@ -223,7 +234,7 @@
                         </div>
                         <div class="col4">
                             <div class="operation_card">
-                                <img class="operation_img" src="./assets/img/business-feature-security.png" alt="">
+                                <img class="operation_img" src="./assets/img/business-feature-coordinate-it.png" alt="">
                                 <h4 class="titles">Passa di meno da uno strumento all'altro</h4>
                                 <p class="small_text">Porta a termine le attività quotidiane
                                     con un solo strumento. Crea, modifica e condividi contenuti
@@ -233,7 +244,8 @@
                         </div>
                         <div class="col4">
                             <div class="operation_card">
-                                <img class="operation_img" src="./assets/img/business-feature-security.png" alt="">
+                                <img class="operation_img" src="./assets/img/business-feature-integrations-it.png"
+                                    alt="">
                                 <h4 class="titles">Passa di meno da uno strumento all'altro</h4>
                                 <p class="small_text">Porta a termine le attività quotidiane
                                     con un solo strumento. Crea, modifica e condividi contenuti
@@ -243,7 +255,7 @@
                         </div>
                         <div class="col4">
                             <div class="operation_card">
-                                <img class="operation_img" src="./assets/img/business-feature-security.png" alt="">
+                                <img class="operation_img" src="./assets/img/business-feature-multi-device.png" alt="">
                                 <h4 class="titles">Passa di meno da uno strumento all'altro</h4>
                                 <p class="small_text">Porta a termine le attività quotidiane
                                     con un solo strumento. Crea, modifica e condividi contenuti
@@ -266,6 +278,7 @@
                     <a class="small_text" href="">Scopri di più sui nostri clienti</a>
                 </div>
             </div>
+            <!--/Operation things-->
 
             <!--designit things-->
             <div id="designit">
@@ -280,7 +293,7 @@
                         <div class="designit_img_grill_bg"> <img class="designit_img_grill" src="./assets/img/topps.svg"
                                 alt=""></div>
                     </div>
-                    <div class="designit_center">
+                    <div class="designit_center col4">
                         <img class="designit_center_img" src="./assets/img/designit.svg" alt="">
                         <p class="small_text">I membri del nostro team lavorano costantemente
                             in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono
@@ -299,19 +312,19 @@
                         <div class="designit_img_grill_bg"> <img class="designit_img_grill"
                                 src="./assets/img/clear_channel.svg" alt=""></div>
                     </div>
-
                 </div>
             </div>
             <div class="light_adv">
                 <div class="call_to_action container_55 d-flex">
                     <div class="col6">
-                        <h3>Porta Dropbox Business nella tua azienda.</h3>
+                        <h2>Porta Dropbox Business nella tua azienda.</h2>
                     </div>
                     <div class="col4"><button class="small_text btn_free">Inizia la prova gratuita</button></div>
                 </div>
             </div>
+            <!--/designit things-->
 
-            <!--last part of main-->
+            <!--FAQ-->
             <div class="faq container_55">
                 <h3 class="titles">Domande Frequenti</h3>
                 <ul class="small_text bold">
@@ -319,21 +332,29 @@
                         <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
                         <p><i class="fa-solid fa-chevron-down"></i></p>
                     </li>
-                    <hr>
+                    <li>
+                        <hr>
+                    </li>
                     <li class="faq_li foot_spread d-flex">
                         <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
                         <p><i class="fa-solid fa-chevron-down"></i></p>
                     </li>
-                    <hr>
+                    <li>
+                        <hr>
+                    </li>
                     <li class="faq_li foot_spread d-flex">
                         <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
                         <p><i class="fa-solid fa-chevron-down"></i></p>
                     </li>
                 </ul>
             </div>
+            <!--/FAQ-->
+
+        </div>
     </main>
     <!--/main-->
 
+    <!--footer-->
     <footer>
         <div id="footer_container">
             <div class="container_55">
@@ -357,7 +378,8 @@
                             <li>Sicurezza</li>
                             <li>Fuzioni</li>
                         </ul>
-                    </div>                    <div class="card_footer col20">
+                    </div>
+                    <div class="card_footer col20">
                         <h4>Azienda</h4>
                         <ul class="small_text">
                             <li>Applicazione desktop</li>
@@ -366,7 +388,8 @@
                             <li>Sicurezza</li>
                             <li>Fuzioni</li>
                         </ul>
-                    </div>                    <div class="card_footer col20">
+                    </div>
+                    <div class="card_footer col20">
                         <h4>Supporto</h4>
                         <ul class="small_text">
                             <li>Applicazione desktop</li>
@@ -375,7 +398,8 @@
                             <li>Sicurezza</li>
                             <li>Fuzioni</li>
                         </ul>
-                    </div>                    <div class="card_footer col20">
+                    </div>
+                    <div class="card_footer col20">
                         <h4>Community</h4>
                         <ul class="small_text">
                             <li>Applicazione desktop</li>
@@ -387,7 +411,8 @@
                     </div>
                 </div>
                 <p>_________</p>
-                <div class="best_nation small_text"><i class="fa-solid fa-earth-europe"></i> Italiano <i class=" fa-solid fa-chevron-up"></i></div>
+                <div class="best_nation small_text"><i class="fa-solid fa-earth-europe"></i> Italiano <i
+                        class=" fa-solid fa-chevron-up"></i></div>
             </div>
         </div>
 

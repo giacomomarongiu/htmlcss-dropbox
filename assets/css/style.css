@@ -94,14 +94,13 @@
 
 ul {
     /* list-style: none;*/
-    padding: 5px;
     list-style: none;
 }
 
 .blue_btn {
     color: var(--drop-lighter);
     border: 0;
-    padding: 3px;
+    padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     background-color: var(--drop-logo);
@@ -192,7 +191,10 @@ body {
     font-size: 10px;
     padding-right: 15px;
     gap: 20px;
-
+    align-items: center;
+}
+.nav_left{
+    align-items: center;
 }
 
 .menu_show {

@@ -162,16 +162,24 @@ ul {
 /*big things*/
 body {
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 
 
 /*Header*/
+
 #site_nav {
     height: 40px;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    background-color: white;
 }
 
 #logo_nav {
@@ -183,8 +191,32 @@ body {
 .nav_list {
     font-size: 10px;
     padding-right: 15px;
-    gap: 20px
+    gap: 20px;
+
 }
+
+.menu_show {
+    text-decoration: none;
+    background: white;
+    position: relative;
+}
+
+.menu_show ul li
+{
+display: none;
+}
+
+.menu_show:hover ul li
+{
+display: block;
+position: absolute;
+z-index:1;
+width:100%;
+padding: 5%;
+margin: 0px;
+background: white;
+}
+
 
 
 
@@ -193,6 +225,7 @@ body {
 /*Jumbotron*/
 #jumbotron {
     background-color: var(--drop-light);
+    padding-top: 3%;
 }
 
 .jumbo_title {
@@ -211,7 +244,8 @@ body {
 .jumbo_left * {
     padding-bottom: 20px;
 }
-.jumbo_left>p:last-child{
+
+.jumbo_left>p:last-child {
     padding-bottom: 0;
 }
 
@@ -262,27 +296,31 @@ body {
 .business_card>* {
     padding: 15px;
 }
+
 .month {
     font-weight: bold;
     padding-top: 1px;
     font-weight: lighter;
 
 }
+
 .euro {
     padding-bottom: 1px;
     font-weight: bold;
 }
+
 .options {
     text-align: center;
     border-bottom: 1px solid var(--drop-table-light);
     padding: 6px;
 }
 
-.fa-ul > li{
+.fa-ul>li {
     padding-bottom: 10%;
     padding-left: 5%;
 }
-li > .fa-li{
+
+li>.fa-li {
     padding-left: 10%;
 }
 
@@ -466,12 +504,12 @@ li > .fa-li{
 }
 
 
-.faq_li{
+.faq_li {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-#footer_container{
+#footer_container {
     background-color: black;
     color: white;
     padding-top: 5%;
@@ -482,15 +520,16 @@ li > .fa-li{
     padding-bottom: 5%;
 }
 
-.card_footer h4{
+.card_footer h4 {
     padding-bottom: 15%;
 }
 
-.card_footer li{
+.card_footer li {
     padding-top: 3%;
     padding-bottom: 3%;
 }
-.best_nation{
+
+.best_nation {
     padding-top: 5%;
     padding-bottom: 5%;
 }

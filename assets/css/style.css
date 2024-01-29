@@ -203,10 +203,12 @@ body {
     position: relative;
 }
 
+
 .menu_show ul li
 {
 display: none;
 }
+
 
 .menu_show:hover ul li
 {
@@ -216,6 +218,7 @@ z-index:1;
 width:100%;
 padding: 5%;
 margin: 0px;
+float: left;
 background: white;
 }
 

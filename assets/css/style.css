@@ -165,7 +165,15 @@ body {
     position: relative;
 }
 
-
+button {
+    transition-duration: 0.1s;
+  }
+  
+button:hover {
+    border:3px solid var(--drop-logo);
+    background-color: white;
+    color: #0093CE;
+}
 /*Header*/
 
 #site_nav {
@@ -387,8 +395,6 @@ li>.fa-li {
     width: 30%;
     padding-left: 20px;
 }
-
-
 
 
 .partner_container {

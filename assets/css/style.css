@@ -94,7 +94,7 @@
 
 ul {
     /* list-style: none;*/
-    padding: 3px;
+    padding: 5px;
     list-style: none;
 }
 
@@ -125,11 +125,6 @@ ul {
 
 .bold {
     font-weight: bold
-}
-
-.fa-ul>* {
-    padding-bottom: 8px;
-    max-width: 100%;
 }
 
 .fa-check {
@@ -164,8 +159,6 @@ ul {
 }
 
 
-
-
 /*big things*/
 body {
     font-family: 'Open Sans', sans-serif;
@@ -189,7 +182,7 @@ body {
 
 .nav_list {
     font-size: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
     gap: 20px
 }
 
@@ -232,11 +225,7 @@ body {
 
 
 /*Business-choice*/
-.options {
-    text-align: center;
-    border-bottom: 1px solid var(--drop-table-light);
-    padding-bottom: 5px;
-}
+
 
 .radio_check_box {
     align-items: center;
@@ -262,7 +251,7 @@ body {
 }
 
 .business_card_container {
-    gap: 32px;
+    gap: 3%;
 }
 
 .business_card {
@@ -282,6 +271,19 @@ body {
 .euro {
     padding-bottom: 1px;
     font-weight: bold;
+}
+.options {
+    text-align: center;
+    border-bottom: 1px solid var(--drop-table-light);
+    padding: 6px;
+}
+
+.fa-ul > li{
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+li > .fa-li{
+    padding-left: 10%;
 }
 
 .container_oriz {
@@ -326,8 +328,8 @@ body {
 
 .btn_card {
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 /*/Business-end*/
